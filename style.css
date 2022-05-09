@@ -1,0 +1,78 @@
+html {
+    background-size:cover;
+    text-align: center;
+    font-size: 10px;
+  }
+   body{
+     background-image: url('clk2.jpg');
+     background-size: cover;
+   }
+  .box {
+    position: relative;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background-image:url('clk3.png');
+    border-radius: 50%;
+    background-size:100%;
+    top: 100px;
+    right: 300px;
+    padding:2rem;
+ 
+  }
+
+  .cont{
+    font-style: italic;
+    font-size: 3rem;
+    float:  right;
+    top: 100px;
+    color: aliceblue;
+  }
+
+  /* .box {
+    width: 32rem;
+    height: 32rem;
+    border-radius:50%;
+    background-image:url('clk3.png');
+    margin:50px auto;
+    position: relative;
+    top: 100px;
+    right: 300px;
+    padding:2rem;
+  }
+
+  .box2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); /* account for the height of the clock hands */
+  
+
+  .hand-hrs, .hand-mins, .hand-sec{
+    background:black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  .hand-hrs{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+  }
+  .hand-mins{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+  }
+  .hand-sec{
+    width: 1%;
+    height: 37%;
+    top: 12%;
+    left: 49.25%;
+    opacity: 0.8;
+  }
+  
